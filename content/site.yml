@@ -36,7 +36,7 @@ analytics:
   meta_pixel: ""                   # e.g. 1643920653740878 – only if the main site should share the Lightspeed pixel
 
 forms:
-  turnstile_site_key: ""           # from Cloudflare → Turnstile. Leave blank until set up; forms still work (honeypot + rate limit only).
+  turnstile_site_key: "0x4AAAAAAFsdbUZbEhcoreOq"   # public site key from Cloudflare → Turnstile → "Langen website"; the secret goes in Pages secrets as TURNSTILE_SECRET
   reply_time: "within a working day"
 
 features:
