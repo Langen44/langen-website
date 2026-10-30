@@ -79,12 +79,12 @@ HOME = f"""
 
 <div class="models">
   <a class="model" href="lightspeed.html">
-    <img src="assets/ls_pub_front.jpg" alt="Langen Lightspeed outside a black-and-white Lancashire inn" loading="lazy" style="object-position:40% 50%">
+    <img src="assets/ls_profile.jpg" alt="Langen Lightspeed, side profile, studio" loading="lazy">
     <div class="veil"></div>
     <div class="txt"><img src="assets/ls_white.png" alt="Lightspeed"><p>185 horsepower. 185 kilograms. One of 185.</p><span class="cta">Explore</span></div>
   </a>
   <a class="model" href="two-stroke.html">
-    <img src="assets/ts_ride_green.jpg" alt="Langen Two Stroke ridden hard on a Lancashire lane" loading="lazy" style="object-position:45% 50%">
+    <img src="assets/ts_profile.jpg" alt="Langen Two Stroke, side profile, studio" loading="lazy">
     <div class="veil"></div>
     <div class="txt"><img class="ts" src="assets/2strokeWhite.svg" alt="Two Stroke"><p>The one that started it. One hundred built.</p><span class="cta">Explore</span></div>
   </a>

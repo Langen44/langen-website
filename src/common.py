@@ -173,17 +173,17 @@ blockquote footer{font-family:"Barlow Condensed";font-weight:500;letter-spacing:
 /* model cards (home) */
 .models{display:grid;gap:2px;background:var(--ink)}
 @media (min-width:760px){.models{grid-template-columns:1fr 1fr}}
-.model{position:relative;display:block;min-height:560px;overflow:hidden;text-decoration:none;color:#fff}
+.model{position:relative;display:block;aspect-ratio:4/3;overflow:hidden;text-decoration:none;color:#fff}
 .model img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.6,.2,1)}
 .model:hover img{transform:scale(1.035)}
-.model .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,14,16,0) 45%,rgba(14,14,16,.88) 100%)}
+.model .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,14,16,0) 55%,rgba(14,14,16,.9) 100%)}
 .model .txt{position:absolute;left:0;right:0;bottom:0;padding:32px 30px}
 .model .txt img{position:static;height:auto;width:min(100%,320px);object-fit:contain;object-position:left center;margin-bottom:14px}
 .model .txt img.ts{width:min(56%,200px)}
 .model h2{font-size:clamp(28px,3.4vw,40px);font-weight:500}
 .model p{color:rgba(255,255,255,.8);max-width:40ch;margin:6px 0 16px;font-size:15px}
 .model .cta{font-family:"Barlow Condensed";font-weight:600;letter-spacing:.2em;text-transform:uppercase;font-size:12.5px;color:#fff;border-bottom:1px solid rgba(255,255,255,.45);padding-bottom:3px}
-@media (max-width:640px){.model{min-height:72svh}}
+@media (max-width:640px){.model{aspect-ratio:1/1}}
 
 /* numbers band (model pages) */
 .numbers-band{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:38px 0;background:var(--ink)}
