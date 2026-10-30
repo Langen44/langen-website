@@ -1,0 +1,15 @@
+# Only needed if you deploy from a terminal with `wrangler pages deploy dist`.
+# With the GitHub → Cloudflare Pages connection (recommended) you set these in the dashboard instead:
+# Settings → Functions → D1 database bindings (DB) and R2 bucket bindings (FILES).
+name = "langen-website"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "langen-site"
+database_id = "REPLACE_WITH_ID_FROM_DASHBOARD"
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "langen-owner-files"
