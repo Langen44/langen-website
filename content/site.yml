@@ -1,0 +1,46 @@
+# Key facts used across the site. Edit here (or in Pages CMS → Settings) and the site rebuilds.
+# Keep figures as you want them to read on the page, e.g. "£37,000".
+
+company:
+  name: Langen Motorcycles
+  legal: Langen Technology Ltd
+  company_no: "11601010"
+  email: info@langenmotorcycles.co.uk
+  phone: "+441942724059"
+  phone_display: "01942 724 059"
+  address_lines:
+    - Unit 1, Kingfisher Court, South Lancs Industrial Estate
+    - Wigan, Greater Manchester WN4 9DW
+    - United Kingdom
+  domain: https://www.langenmotorcycles.co.uk/
+
+lightspeed:
+  price_from: "£37,000"            # plus VAT
+  price_heavily_specified: "around £50,000"
+  deposit: "£1,000"
+  builds: 185
+  us_allocation: 50
+  allocated: null                  # set a number (e.g. 31) to show "31 of 185 allocated" on the Lightspeed page; leave blank to hide
+  uk_delivery: "UK-specification Lightspeeds are delivering first, in build order."
+  world_delivery: "Fully homologated versions for the United States, Europe, Japan, the Middle East and Australasia follow through 2027."
+  freight_note: "Air freight door to door, crated and insured, is typically around £3,000, with duty and state taxes paid on arrival."
+  stripe_deposit_link: https://buy.stripe.com/5kQaEX7j5esT9GfbQj9IQ0u
+  brochure: assets/Langen_Lightspeed_Brochure.pdf
+
+two_stroke:
+  built: 100
+  slot_price: "£32,500"            # released build allocations, plus VAT
+
+analytics:
+  ga4_id: ""                       # e.g. G-XXXXXXXXXX – a GA4 web stream for www.langenmotorcycles.co.uk
+  meta_pixel: ""                   # e.g. 1643920653740878 – only if the main site should share the Lightspeed pixel
+
+forms:
+  turnstile_site_key: ""           # from Cloudflare → Turnstile. Leave blank until set up; forms still work (honeypot + rate limit only).
+  reply_time: "within a working day"
+
+features:
+  newsletter: true                 # footer sign-up block (needs MAILCHIMP_* secrets in Cloudflare for it to do anything)
+  brochure_gate: true              # ask for an email before handing over the brochure
+  assistant: false                 # "Ask the workshop" chat – turn on after reading a week of logs
+  assistant_name: "Ask the workshop"

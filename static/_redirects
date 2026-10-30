@@ -1,0 +1,9 @@
+# Old Webflow paths -> new pages. Targets are clean URLs: Cloudflare serves
+# lightspeed.html at /lightspeed natively, so never redirect to a ".html" address
+# (that creates a loop with Cloudflare's own .html -> clean-URL redirect).
+/motorcycles/lightspeed     /lightspeed             301
+/motorcycles/two-stroke     /two-stroke             301
+/news/langenbusinessawards  /news-business-awards   301
+/owners-portal              /owners                 301
+/press-portal               /owners#press           301
+/privacy-policy             /privacy                301

@@ -1,0 +1,107 @@
+# Pages CMS configuration (https://pagescms.org). Sign in with GitHub at app.pagescms.org, open this repository,
+# and the sections below appear as forms. Every save is a commit; Cloudflare rebuilds the site in about a minute.
+media:
+  input: assets
+  output: assets
+  extensions: [jpg, jpeg, png, svg, webp, pdf, mp4]
+
+content:
+  - name: news
+    label: News
+    type: collection
+    path: content/news
+    filename: "{year}-{month}-{day}-{fields.slug}.md"
+    view:
+      fields: [title, date]
+      sort: [date]
+      default: { sort: date, order: desc }
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: slug, label: Web address (short, lower-case, hyphens), type: string, required: true, pattern: { regex: "^[a-z0-9-]+$", message: "Lower-case letters, numbers and hyphens only" } }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: summary, label: Summary (one or two sentences, shown on the cards), type: text, required: true }
+      - { name: image, label: Photo, type: image, required: true }
+      - { name: image_alt, label: Photo description (for accessibility), type: string }
+      - { name: feature, label: Feature this article at the top of the News page, type: boolean, default: false }
+      - { name: link, label: External link (optional – if set, the card opens this instead of an article page), type: string }
+      - { name: body, label: Article, type: rich-text }
+
+  - name: pre-owned
+    label: Pre-owned
+    type: collection
+    path: content/pre-owned
+    filename: "{fields.model_slug}-{fields.number}.md"
+    view:
+      fields: [model, number, price, status]
+    fields:
+      - { name: model, label: Model, type: select, options: { values: ["Two Stroke", "Lightspeed"] }, default: "Two Stroke", required: true }
+      - { name: model_slug, label: Model (for the file name), type: select, options: { values: ["two-stroke", "lightspeed"] }, default: "two-stroke", required: true }
+      - { name: number, label: Build number (three digits), type: string, required: true }
+      - { name: status, label: Status, type: select, options: { values: [available, reserved, sold] }, default: available }
+      - { name: price, label: Price (as it should read), type: string, required: true }
+      - { name: title, label: One-line description, type: string, required: true }
+      - { name: meta, label: Small print (mileage, owners), type: string }
+      - { name: brochure, label: Brochure link, type: string, required: true }
+      - { name: image, label: Photo, type: image, required: true }
+      - { name: highlights, label: Highlights, type: string, list: true }
+
+  - name: settings
+    label: Settings
+    type: file
+    path: content/site.yml
+    fields:
+      - name: lightspeed
+        label: Lightspeed
+        type: object
+        fields:
+          - { name: price_from, label: Price from (plus VAT), type: string }
+          - { name: price_heavily_specified, label: Heavily specified price wording, type: string }
+          - { name: deposit, label: Deposit, type: string }
+          - { name: builds, label: Total builds, type: number }
+          - { name: us_allocation, label: US allocation, type: number }
+          - { name: allocated, label: Builds allocated so far (blank to hide), type: number }
+          - { name: uk_delivery, label: UK delivery line, type: string }
+          - { name: world_delivery, label: World delivery line, type: string }
+          - { name: freight_note, label: Freight note, type: string }
+          - { name: stripe_deposit_link, label: Stripe deposit link, type: string }
+          - { name: brochure, label: Brochure file, type: string }
+      - name: two_stroke
+        label: Two Stroke
+        type: object
+        fields:
+          - { name: built, label: Built, type: number }
+          - { name: slot_price, label: Released build-slot price, type: string }
+      - name: company
+        label: Company
+        type: object
+        fields:
+          - { name: email, label: Email, type: string }
+          - { name: phone, label: Phone (international, no spaces), type: string }
+          - { name: phone_display, label: Phone as displayed, type: string }
+      - name: analytics
+        label: Analytics
+        type: object
+        fields:
+          - { name: ga4_id, label: GA4 measurement ID, type: string }
+          - { name: meta_pixel, label: Meta pixel ID, type: string }
+      - name: forms
+        label: Forms
+        type: object
+        fields:
+          - { name: turnstile_site_key, label: Turnstile site key, type: string }
+          - { name: reply_time, label: Reply-time wording, type: string }
+      - name: features
+        label: Features
+        type: object
+        fields:
+          - { name: newsletter, label: Newsletter sign-up in the footer, type: boolean }
+          - { name: brochure_gate, label: Ask for an email before the brochure, type: boolean }
+          - { name: assistant, label: Show the assistant, type: boolean }
+          - { name: assistant_name, label: Assistant button label, type: string }
+
+  - name: assistant
+    label: Assistant
+    type: collection
+    path: content/assistant
+    fields:
+      - { name: body, label: Text, type: text }
