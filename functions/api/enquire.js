@@ -26,6 +26,8 @@ export async function onRequestPost({ request, env }) {
   let mailed = false;
   try { mailed = await sendEmail(env, { to, subject: `Website enquiry – ${subject} – ${name}`, text, html, replyTo: email }); } catch (e) { console.log("enquiry email failed", String(e)); }
   if (newsletter) { try { await mailchimpSubscribe(env, { email, name, tags: ["Enquiry", MODELS[model]], source: "enquiry-form" }); } catch (e) { console.log("mailchimp failed", String(e)); } }
-  if (!stored && !mailed) return json({ error: "The enquiry service isn't connected yet." }, 503);
+  // No email configured yet → tell the visitor so the form offers the email link instead of silently filing the enquiry.
+  if (!env.RESEND_API_KEY) return json({ error: "The enquiry form isn't connected yet." }, 503);
+  if (!stored && !mailed) return json({ error: "We couldn't send that just now." }, 503);
   return json({ ok: true });
 }

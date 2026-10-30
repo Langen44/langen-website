@@ -68,6 +68,8 @@ console.log("enquire");
   r = await enquire.onRequestPost({ request: req("/api/enquire", { name: "A", email: "a@b.co", turnstile: "good" }), env: envT }); ok(r.status === 200, "turnstile passes with a good token");
   const envNone = { SESSION_SECRET: "x" };
   r = await enquire.onRequestPost({ request: req("/api/enquire", { name: "A", email: "a@b.co" }), env: envNone }); ok(r.status === 503, "503 when nothing is connected (front end falls back to email)");
+  const envDbOnly = { SESSION_SECRET: "x", DB: fakeDB() };
+  r = await enquire.onRequestPost({ request: req("/api/enquire", { name: "A", email: "a@b.co" }), env: envDbOnly }); ok(r.status === 503 && envDbOnly.DB.rows.enquiries.length === 1, "no email key: stored but visitor is sent to the email link (nothing silent)");
 }
 console.log("subscribe / brochure");
 { const env = { ...base, DB: fakeDB() }; calls.length = 0;
