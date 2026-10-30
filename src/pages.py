@@ -38,9 +38,9 @@ LETTER = f"""
 <section class="light letter-wrap">
   <div class="wrap letter">
     {chapter("A note from the founder","")}
-    <p>I spent the first part of my career designing motorcycles for other people's badges. The brief was always the same: a bike for everyone, which is to say a bike for no one in particular. Langen began as the opposite idea – that a motorcycle could be made for one rider, by people who would know that rider by name, and that it should be light enough and alive enough to make a Tuesday evening feel like a holiday.</p>
-    <p>We are a small company in Wigan. We keep it that way on purpose. Every bike we build goes through the same hands, and every owner has my number. If you commission one, you will spend a day with us before anything is cut, and you will know exactly who made it and why each part is the way it is.</p>
-    <p>Everything on a Langen is there because it has to be. Nothing is there because the brochure needed it.</p>
+    <p>I spent the first part of my career designing motorcycles for other companies, where the brief was always a bike for as many people as possible. I started Langen in 2018 to build a motorcycle for one rider at a time, with a team small enough to know each of those riders by name, and to make it light enough that you feel the road through every part of it.</p>
+    <p>We are a small company in Wigan and we intend to stay one. Every bike goes through the same hands, and every owner has my number. If you commission one, you will spend a day with us before anything is cut, and you will know who made each part and why it is the way it is.</p>
+    <p>Every part on a Langen has a job. If we cannot say what a part is for, it comes off.</p>
     <footer>Christofer Ratcliffe<br><small>Founder, Langen Motorcycles</small></footer>
   </div>
 </section>
@@ -73,7 +73,7 @@ HOME = f"""
 <section class="manifesto">
   <div class="wrap">
     <span class="kicker">Why we exist</span>
-    <h2>We don't believe a motorcycle can be made for more than one person. So we don't try.</h2>
+    <h2>We build one motorcycle at a time, for one rider, around how they sit on it and where they ride it.</h2>
   </div>
 </section>
 
@@ -86,7 +86,7 @@ HOME = f"""
   <a class="model" href="two-stroke.html">
     <img src="assets/ts_profile.jpg" alt="Langen Two Stroke, side profile, studio" loading="lazy">
     <div class="veil"></div>
-    <div class="txt"><img class="ts" src="assets/2strokeWhite.svg" alt="Two Stroke"><p>The one that started it. One hundred built.</p><span class="cta">Explore</span></div>
+    <div class="txt"><img class="ts" src="assets/2strokeWhite.svg" alt="Two Stroke"><p>Our first motorcycle. One hundred built, 2019 to 2025.</p><span class="cta">Explore</span></div>
   </a>
 </div>
 
@@ -94,8 +94,8 @@ HOME = f"""
   <div class="wrap split">
     <div>
       {chapter("01","The idea")}
-      <h2 class="section-title">It begins with the rider, not the bike.</h2>
-      <p class="lede">Each Langen starts with the person who will ride it: height, reach, how and where they ride. Position, geometry and suspension are set to them. Then paint, finishes and the machined details are chosen with the engineers who will make them. The bike that leaves Wigan fits one person, and it is theirs in every sense.</p>
+      <h2 class="section-title">Built around the rider.</h2>
+      <p class="lede">Before anything is cut, we measure the rider: height, reach, how they sit, where they ride. Seat, bars, footrests, ride height and suspension are set to those numbers. Then paint, finishes and the machined parts are chosen with the engineers who will make them. The bike that leaves Wigan has been built around one person.</p>
       <div class="btns" style="margin-top:30px"><a class="tlink" href="commission.html">How a commission works</a></div>
     </div>
     <img src="assets/ts_build_frame2.jpg" alt="A Langen engineer fitting a Two Stroke chassis in the workshop" loading="lazy" style="object-position:30% 50%">
@@ -107,15 +107,15 @@ HOME = f"""
   <div class="veil"></div>
   <div class="wrap">
     {chapter("02","The people")}
-    <h2>One workshop. You will know their names.</h2>
-    <p>Engineers and designers who came from CCM, Triumph, BAC, McLaren and M-Sport to build the motorcycles the big factories can't. There is no dealer in between: the person who welds your chassis is the person who answers the phone when you call about it.</p>
+    <h2>A small team, and you will meet all of them.</h2>
+    <p>The engineers and designers here came from CCM, Triumph, BAC, McLaren and M-Sport. There is no dealer. You deal with the people who design and build the bikes, and when you call about yours, one of them picks up.</p>
     <div class="btns" style="margin-top:26px"><a class="tlink" href="about.html">About Langen</a></div>
   </div>
 </section>
 
 <section class="pull">
   <div class="wrap">
-    <blockquote class="big">Everything on a Langen is there because it has to be. Nothing is there because the brochure needed it.<footer><a class="tlink" href="about.html">Christofer Ratcliffe, founder</a></footer></blockquote>
+    <blockquote class="big">Every part on a Langen has a job. If we cannot say what a part is for, it comes off.<footer><a class="tlink" href="about.html">Christofer Ratcliffe, founder</a></footer></blockquote>
   </div>
 </section>
 
@@ -123,8 +123,8 @@ HOME = f"""
   <div class="wrap split wide">
     <div>
       {chapter("03","The ride")}
-      <h2 class="section-title">Light enough to feel. Fast enough to matter.</h2>
-      <p class="lede">A Langen weighs what a motorcycle weighed before motorcycles got heavy. The Two Stroke is 120 kg; the Lightspeed, with 185 horsepower, is 185. That is not a specification so much as a point of view: that the pleasure of riding is in how a bike moves beneath you, not in what it does on paper.</p>
+      <h2 class="section-title">Weight comes first.</h2>
+      <p class="lede">The Two Stroke weighs 120 kg. The Lightspeed weighs 185 kg and makes 185 horsepower. Every design here starts with a weight target and the rest of the bike is held to it, because weight is what you feel in every corner, every braking point and every change of direction.</p>
       <blockquote>“…the benchmark handling of its sweet-steering chassis. Langen Motorcycles’ debut model has hit the bullseye.”<footer>motorcycle.com</footer></blockquote>
     </div>
     <img src="assets/ls_front_bokeh.jpg" alt="Lightspeed head-on, lights on, in a dark studio" loading="lazy" style="object-position:50% 50%">
@@ -141,7 +141,7 @@ HOME = f"""
   </div>
 </section>
 
-{enquire_block("Begin a conversation", "Every Langen starts with a conversation, usually with Christofer. Tell us where you are and what you have in mind – a colour, a fit, a road you want it for – and we will come back to you personally.")}
+{enquire_block("Talk to us", "Tell us where you are and what you have in mind, and Christofer or one of the team will reply personally, usually within a working day.")}
 <style>.bar{{display:none}}body{{padding-bottom:0}}</style>
 """
 
@@ -153,7 +153,7 @@ LIGHTSPEED = f"""
   <div class="wrap">
     <div class="kicker">One of 185</div>
     <img class="mark" src="assets/ls_white.png" alt="Lightspeed">
-    <h1>Built for its owner. Alive on any road.</h1>
+    <h1>A 185 hp V-twin, built around its rider.</h1>
     <div class="btns">
       <a class="btn gold" href="{ENQ_LS}">{ICON_MAIL}Enquire about a build</a>
       <a class="tlink" href="{STRIPE}">Reserve a build number</a>
@@ -167,9 +167,9 @@ LIGHTSPEED = f"""
   <div class="wrap split">
     <div>
       {chapter("01","The motorcycle")}
-      <h2 class="section-title">A hyper-naked with manners.</h2>
-      <p class="lede">The Lightspeed has the agility of a hyper-naked, components from the superbike paddock, the torque of a drag bike and a seat you can sit in all day. Its silhouette is what stops people in the street. What keeps them there is the engineering they find up close.</p>
-      <blockquote>Each Lightspeed has the character of a Langen and the character of the person it was built for. We believe it is impossible to make a motorcycle for more than one rider, so we don't.<footer>Christofer Ratcliffe, founder</footer></blockquote>
+      <h2 class="section-title">What it is.</h2>
+      <p class="lede">The Lightspeed is a 1,190cc V-twin road bike with 185 horsepower and a dry weight of 185 kilograms. It has superbike suspension and brakes, a 19-litre tank and a 790 mm seat, and it is built to be ridden a long way. Up close, most of what you see was machined, welded or laid up within a few miles of the workshop.</p>
+      <blockquote>Every Lightspeed is set up and specified for the person who ordered it. We spend a day with each owner before we start, and it shows in the bike.<footer>Christofer Ratcliffe, founder</footer></blockquote>
     </div>
     <img class="sq" src="assets/ls_studio_grey.jpg" alt="Lightspeed, front three-quarter, studio" loading="lazy" style="object-position:50% 55%">
   </div>
@@ -179,37 +179,37 @@ LIGHTSPEED = f"""
   <img class="bg" src="assets/ls_macro_engine.jpg" alt="Lightspeed engine cover with the LS mark, carbon and titanium around it" style="object-position:50% 50%">
   <div class="veil"></div>
   <div class="wrap">
-    <h2>Nothing is covered up.</h2>
-    <p>The engine is on show because we are proud of it. The chassis is on show because it is beautiful. Carbon laid by hand, steel welded by people who weld for Formula 1, billet turned minutes from the factory door – all of it where you can see it.</p>
+    <h2>Nothing is hidden under a panel.</h2>
+    <p>The engine and the chassis are in plain view. The carbon is laid by hand, the frame is welded by a firm that welds for Formula 1 teams, and the billet parts are machined a few minutes from the workshop. We would rather you could see all of that.</p>
   </div>
 </section>
 
 <section id="engineering">
   <div class="wrap">
     {chapter("02","What it is made of")}
-    <h2 class="section-title">Every part chosen, or made, by us.</h2>
+    <h2 class="section-title">Every part was chosen or made here.</h2>
     {anno([
-      ("The engine","1,190cc V-twin","Liquid-cooled 72º V-twin, developed by Rotax and built by Buell, running Langen's own injection and electronics. 185 hp, 138 Nm, and a mid-range that pulls rather than waits.","assets/ls_macro_engine_exhaust.jpg"),
-      ("185 kilograms","Carbon and forged aluminium","Full carbon bodywork and Langen forged, CNC-machined wheels. Over 1,000 bhp per tonne – a figure from the race paddock, on a bike with a 19-litre tank.","assets/ls_macro_sprocket.jpg"),
+      ("The engine","1,190cc V-twin","Liquid-cooled 72º V-twin, developed by Rotax and built by Buell, running Langen's own injection and electronics. 185 hp, 138 Nm, with most of the torque available from the middle of the rev range.","assets/ls_macro_engine_exhaust.jpg"),
+      ("185 kilograms","Carbon and forged aluminium","Full carbon bodywork and Langen forged, CNC-machined wheels. Over 1,000 bhp per tonne, on a bike with a 19-litre tank.","assets/ls_macro_sprocket.jpg"),
       ("Öhlins at both ends","Set to you","FGRT 301 48 mm forks with a superbike cartridge kit; twin STX piggyback shocks behind. Set to you at your fitting. K-Tech Racing pack available.","assets/ls_macro_shock.jpg"),
       ("Brakes","Made with HEL","Twin 320 mm floating discs and four-piston radial calipers made with HEL; 265 mm at the rear. Cornering ABS.","assets/ls_macro_caliper.jpg"),
-      ("Electronics, written here","In house","Traction, wheelie, launch and cruise control developed in house, because nobody else's would do what we wanted. A dash turned from solid, with a TFT touchscreen.","assets/ls_macro_cockpit.jpg"),
-      ("The exhaust","Machined end cap","Langen system with a machined, engraved end cap. A full titanium race system for owners who want it louder and lighter.","assets/ls_macro_endcap.jpg"),
+      ("Electronics","Written in house","Traction, wheelie, launch and cruise control, developed in house so they could be calibrated for this engine and this chassis. The dash is machined from solid aluminium and carries a TFT touchscreen.","assets/ls_macro_cockpit.jpg"),
+      ("The exhaust","Machined end cap","Langen system with a machined, engraved end cap. A full titanium race system is available.","assets/ls_macro_endcap.jpg"),
     ])}
   </div>
 </section>
 
-{strip(("","In detail"),"The parts you will come to know.",[
-  ("assets/ls_macro_lamp_side.jpg","Lightspeed halo headlamp in its carbon nacelle","Halo, carbon, billet.","LED halo lamp in a machined bezel and carbon nacelle.","45% 50%"),
-  ("assets/ls_macro_filler.jpg","Lightspeed machined filler cap","Turned from solid.","The filler cap, machined in one piece minutes from the factory door.","50% 50%"),
+{strip(("","In detail"),"Close up.",[
+  ("assets/ls_macro_lamp_side.jpg","Lightspeed halo headlamp in its carbon nacelle","The headlamp.","LED halo lamp in a machined bezel and carbon nacelle.","45% 50%"),
+  ("assets/ls_macro_filler.jpg","Lightspeed machined filler cap","The filler cap.","Machined from one piece of aluminium, a few minutes from the workshop.","50% 50%"),
   ("assets/ls_macro_tank.jpg","Lightspeed tank with the Langen script","The tank.","Hand-laid carbon under paint, or left bare. Nineteen litres.","60% 50%"),
-  ("assets/ls_macro_endcap.jpg","Lightspeed exhaust end cap","The end cap.","Machined and engraved by hand. A titanium race system is available.","55% 50%"),
-  ("assets/ls_macro_cockpit.jpg","Lightspeed cockpit from above","The cockpit.","A dash turned from solid, a TFT touchscreen, bars set to your reach.","50% 45%"),
-  ("assets/ls_macro_fuelcap.jpg","Lightspeed carbon tank top and fuel cap","Carbon, by hand.","Every panel is laid up by people who make for Formula 1.","50% 50%"),
-  ("assets/ls_macro_sprocket.jpg","Lightspeed rear sprocket and forged wheel","The rear wheel.","Forged, machined, anodised; the sprocket carrier is a Langen part.","50% 50%"),
+  ("assets/ls_macro_endcap.jpg","Lightspeed exhaust end cap","The end cap.","Machined and engraved. A titanium race system is available.","55% 50%"),
+  ("assets/ls_macro_cockpit.jpg","Lightspeed cockpit from above","The cockpit.","A machined dash, a TFT touchscreen, and bars set to your reach at the fitting.","50% 45%"),
+  ("assets/ls_macro_fuelcap.jpg","Lightspeed carbon tank top and fuel cap","The bodywork.","Every panel is laid up by hand by a firm that also makes parts for Formula 1 teams.","50% 50%"),
+  ("assets/ls_macro_sprocket.jpg","Lightspeed rear sprocket and forged wheel","The rear wheel.","Forged aluminium, machined and anodised. The sprocket carrier is our own part.","50% 50%"),
   ("assets/ls_macro_caliper.jpg","Lightspeed brake caliper and disc","The brakes.","Four-piston radial calipers made with HEL on 320 mm floating discs.","50% 50%"),
-  ("assets/ls_macro_wheel.jpg","Lightspeed front wheel and radiator","Forged, in house.","Langen forged aluminium wheels, machined and anodised to the specification.","50% 50%"),
-  ("assets/ls_macro_seat.jpg","Lightspeed seat and tail","The tail.","A seat you can sit in all day, over a hand-laid carbon tail.","50% 50%"),
+  ("assets/ls_macro_wheel.jpg","Lightspeed front wheel and radiator","The front wheel.","Our own forged aluminium wheel, machined and anodised to the owner's specification.","50% 50%"),
+  ("assets/ls_macro_seat.jpg","Lightspeed seat and tail","The tail.","A seat shaped for long days, on a hand-laid carbon tail unit.","50% 50%"),
 ])}
 
 <div class="band">
@@ -222,8 +222,8 @@ LIGHTSPEED = f"""
 <section id="colour">
   <div class="wrap">
     {chapter("03","Specification")}
-    <h2 class="section-title">Your colour. Your character.</h2>
-    <p class="body">The standard Lightspeed is silver over a bronze chassis with champagne wheels. From there, no two need look alike: bodywork, frame, wheels, seat and every anodised or machined detail are specified individually, and where the palette runs out the design team will develop a finish with you.</p>
+    <h2 class="section-title">Colour and finish.</h2>
+    <p class="body">The standard Lightspeed is silver over a bronze chassis with champagne wheels. Bodywork, frame, wheels, seat and the anodised and machined parts are then specified individually with the design team, and if you want a finish we have not done before, we will develop it with you.</p>
     <div class="studies">
       <figure><img src="assets/ls_col_blue.jpg" alt="Lightspeed specification study: cobalt blue over black frame" loading="lazy"><figcaption><span>01</span>Cobalt over black frame</figcaption></figure>
       <figure><img src="assets/ls_col_greenfade.jpg" alt="Lightspeed specification study: racing green fade" loading="lazy"><figcaption><span>02</span>Racing green fade</figcaption></figure>
@@ -240,23 +240,23 @@ LIGHTSPEED = f"""
   <img class="bg" src="assets/ls_pub_side.jpg" alt="Lightspeed outside a Lancashire inn at dusk" style="object-position:50% 55%">
   <div class="veil"></div>
   <div class="wrap">
-    <h2>Any road. Any distance.</h2>
-    <p>A 790 mm seat, a 19-litre tank, cruise control and touring options for owners who mean to use all 185 horsepower. Geared for around 150 mph as standard; we will gear it longer or shorter to suit how you ride.</p>
+    <h2>Built to be ridden a long way.</h2>
+    <p>A 790 mm seat, a 19-litre tank, cruise control, and touring options for owners who will cover distance. Standard gearing gives around 150 mph; we will gear it longer or shorter to suit how you ride.</p>
   </div>
 </section>
 
 <section class="light" id="commission">
   <div class="wrap">
     {chapter("04","The commission")}
-    <h2 class="section-title">Not bought. Commissioned.</h2>
-    <p class="lede">A Lightspeed is made in conversation with the people who will build it. Six steps, most of them in Wigan; a video call with the bike in front of us if you are overseas.</p>
+    <h2 class="section-title">How a Lightspeed is commissioned.</h2>
+    <p class="lede">Six steps, most of them at the workshop in Wigan. For overseas owners we do the same over a video call with the bike in front of us.</p>
     <div class="steps">
       <div class="step"><h3>Allocation</h3><p>A refundable {LS["deposit"]} deposit secures one of {LS["builds"]} numbered builds. It stays refundable until your specification is agreed, the sales agreement is signed and manufacturing begins.</p></div>
       <div class="step"><h3>Consultation</h3><p>A day at the workshop with the design engineers: see the bike, sit on it, see how it is built, and talk about yours.</p></div>
-      <div class="step"><h3>Fitting</h3><p>Seat height and shape, bar height and sweep, footrest position, ride height and suspension – measured and set to you, not adjusted afterwards.</p></div>
-      <div class="step"><h3>Specification</h3><p>Paint, finishes, materials and hard parts, settled with the designers until it is unmistakably yours.</p></div>
-      <div class="step"><h3>The build</h3><p>By hand, by a small team, with parts made or machined locally. Updates as it comes together; visit whenever you like.</p></div>
-      <div class="step"><h3>Handover</h3><p>Complete, set up to your fitting, with its certificate and build record – and the people who made it.</p></div>
+      <div class="step"><h3>Fitting</h3><p>Seat height and shape, bar height and sweep, footrest position, ride height and suspension, measured and set to you before the build starts.</p></div>
+      <div class="step"><h3>Specification</h3><p>Paint, finishes, materials and hard parts, agreed with the designers and recorded in the sales agreement.</p></div>
+      <div class="step"><h3>The build</h3><p>Built by hand by a small team, with parts made or machined locally. We send updates as it comes together, and you are welcome to visit.</p></div>
+      <div class="step"><h3>Handover</h3><p>Handed over complete and set up to your fitting, with its certificate and build record, by the people who built it.</p></div>
     </div>
     <div class="btns" style="margin-top:40px"><a class="btn gold" href="commission.html">The commission in full</a><a class="tlink" href="{STRIPE}">Reserve a build number</a></div>
   </div>
@@ -281,7 +281,7 @@ LIGHTSPEED = f"""
     <div>
       <div class="kicker">By invitation</div>
       <h2 class="section-title">LS12 Lightspeed Turbo</h2>
-      <p class="lede">Twelve, worldwide, drawn from the 185. A forced-induction Lightspeed with one purpose: to be the fastest motorcycle Langen will ever build.</p>
+      <p class="lede">Twelve turbocharged Lightspeeds, drawn from the 185. It will be the fastest motorcycle we build.</p>
       <p class="body">Offered first to Lightspeed build-number holders and Two Stroke owners. Owners will be invited to the reveal.</p>
     </div>
     <img src="assets/turbo_side.jpg" alt="LS12 Lightspeed Turbo, side profile" loading="lazy">
@@ -328,7 +328,7 @@ TWOSTROKE = f"""
   <div class="wrap">
     <div class="kicker">2019 – 2025 · One hundred built</div>
     <img class="mark" src="assets/2strokeWhite.svg" alt="Two Stroke" style="width:min(70%,360px)">
-    <h1>The one that started it.</h1>
+    <h1>Our first motorcycle.</h1>
     <div class="btns">
       <a class="btn gold" href="pre-owned.html">Currently offered</a>
       <a class="tlink" href="{ENQ_TS}">Register interest</a>
@@ -336,15 +336,15 @@ TWOSTROKE = f"""
   </div>
 </section>
 {subnav("Two Stroke",[("overview","Overview"),("engineering","Engineering"),("pre-owned","Changing hands"),("technical","Technical")])}
-{numbers_band([("76","hp"),("120","kg"),("100","built"),("12,700","rpm")], 'A 249.5cc two-stroke V-twin from Maranello in a 120 kg motorcycle that sounds like nothing else on the road. One hundred were built. All of them were sold.')}
+{numbers_band([("76","hp"),("120","kg"),("100","built"),("12,700","rpm")], 'A 249.5cc two-stroke V-twin developed in Maranello, in a 120 kg motorcycle. One hundred were built between 2019 and 2025, and all of them were sold.')}
 
 <section class="light" id="overview">
   <div class="wrap split">
     <div>
       {chapter("01","The idea")}
-      <h2 class="section-title">Simplify, then add lightness.</h2>
-      <p class="lede">The Two Stroke was the first thing Langen set out to prove: that a small team of engineers could build a motorcycle the big factories wouldn't – a road-going two-stroke with race DNA, refined enough to ride every day, light enough to feel every yard of it.</p>
-      <p class="body">An aluminium space frame, carbon bodywork, Öhlins and K-Tech suspension, HEL brakes and an engine developed with Vins Motors in Maranello, with Langen's own patented injection. Every one of the hundred was specified by its owner, and every one is known to us by number.</p>
+      <h2 class="section-title">Where Langen started.</h2>
+      <p class="lede">The Two Stroke was the first bike we built: a road-legal two-stroke with an aluminium space frame, carbon bodywork and a weight of 120 kg, designed and built by a small team in Wigan to a standard we would put against anything from a large factory.</p>
+      <p class="body">Öhlins and K-Tech suspension, HEL brakes, and an engine developed with Vins Motors in Maranello running Langen's own patented injection. Every one of the hundred was specified by its owner, and we know each of them by number.</p>
       <blockquote>“Build quality is spectacular… the whole package is a triumph of handling prowess.”<footer><a href="https://www.motorcyclenews.com/bike-reviews/langen/two-stroke/2022/">Motorcycle News</a></footer></blockquote>
     </div>
     <img src="assets/ts_studio.jpg" alt="Langen Two Stroke, side profile, studio" loading="lazy">
@@ -354,35 +354,35 @@ TWOSTROKE = f"""
 <section id="engineering">
   <div class="wrap">
     {chapter("02","What it is made of")}
-    <h2 class="section-title">Race DNA. Road manners.</h2>
+    <h2 class="section-title">The engineering.</h2>
     {anno([
       ("Vins Motors V-twin","249.5cc two-stroke","90º two-stroke twin, developed in Maranello, with Langen's patented electronic injection. 76 hp, 45 Nm, a power band from 9,500 rpm.","assets/ts_macro_engine.jpg"),
       ("120 kilograms","Aluminium and carbon","7020-T6 aluminium space frame, carbon fibre tank and bodywork, spoked tubeless rims. Over 600 bhp per tonne.","assets/ts_macro_hub.jpg"),
       ("Öhlins and K-Tech","Made for us","Öhlins 43 mm forks, fully adjustable. Twin K-Tech Razor piggyback shocks, made for us, with length adjustment.","assets/ts_shock.jpg"),
-      ("Machined, not moulded","Billet throughout","Billet yokes, levers and lamp bezels. Brembo Serie Oro discs with HEL billet calipers.","assets/ts_macro_lever.jpg"),
-      ("One dial","And very little else","A single round instrument in a carbon surround. Electric start, LED lighting, and very little else between you and the engine.","assets/ts_speedo.jpg"),
-      ("No two alike","Owner specified","Paint, finishes, seat and hard parts were chosen by each owner. Which is why no two that come back to the factory are the same.","assets/ts_macro_tank.jpg"),
+      ("Billet parts","Machined from solid","Billet yokes, levers and lamp bezels. Brembo Serie Oro discs with HEL billet calipers.","assets/ts_macro_lever.jpg"),
+      ("One instrument","Carbon surround","A single round instrument in a carbon surround, electric start and LED lighting.","assets/ts_speedo.jpg"),
+      ("Owner specified","Paint, seat, finishes","Paint, finishes, seat and hard parts were chosen by each owner, so no two of the hundred are the same.","assets/ts_macro_tank.jpg"),
     ])}
   </div>
 </section>
 
-{strip(("","In detail"),"No two left the factory alike.",[
+{strip(("","In detail"),"Close up.",[
   ("assets/ts_seat_14.jpg","Two Stroke number 14 in yellow with a quilted seat","Number 14.","Yellow over carbon, quilted seat, white frame.","50% 50%"),
   ("assets/ts_yokes_gold.jpg","Two Stroke gold-anodised yokes and instrument","Billet yokes.","Machined top yoke, gold anodised, single round dial.","50% 50%"),
   ("assets/ts_lamp_gold.jpg","Two Stroke headlamp with gold bezel","The lamp.","Machined bezel, LED lamp, carbon surround.","50% 50%"),
   ("assets/ts_macro_seat.jpg","Two Stroke leather seat with Langen stitching","The seat.","Leather or Alcantara, stitched by hand, embroidered with the script.","50% 50%"),
-  ("assets/ts_purple_tank.jpg","Two Stroke in metallic purple","An owner's purple.","Paint, finishes and hard parts were chosen by each owner.","50% 50%"),
-  ("assets/ts_carbon_script.jpg","Carbon exhaust shroud with the Langen script","Carbon shroud.","Laid by hand, finished in gloss, the script set into the weave.","50% 50%"),
+  ("assets/ts_purple_tank.jpg","Two Stroke in metallic purple","Metallic purple.","Paint, finishes and hard parts were chosen by each owner.","50% 50%"),
+  ("assets/ts_carbon_script.jpg","Carbon exhaust shroud with the Langen script","Carbon shroud.","Laid by hand and finished in gloss, with the script set into the weave.","50% 50%"),
   ("assets/ts_wheel_gold.jpg","Two Stroke gold forged wheel and brake","Gold wheel.","Dymag forged wheels on some owners' builds; wire-spoked on the signature specification.","50% 50%"),
-  ("assets/ts_seat_leather.jpg","Two Stroke brown leather seat","Brown leather.","A seat specified by its owner, down to the thread.","50% 50%"),
+  ("assets/ts_seat_leather.jpg","Two Stroke brown leather seat","Brown leather.","Leather and stitching chosen by the owner.","50% 50%"),
 ])}
 
 <section class="light" id="pre-owned">
   <div class="wrap split">
     <div>
       {chapter("03","Changing hands")}
-      <h2 class="section-title">One hundred were built. Occasionally, one comes back.</h2>
-      <p class="lede">When an owner passes theirs on, it returns through the factory and is offered to the next person who will keep it – record, provenance and relationship intact.</p>
+      <h2 class="section-title">When one comes back.</h2>
+      <p class="lede">When an owner sells, the bike comes back through the factory. We inspect it, prepare it, issue a new certificate and offer it first to the people who have registered interest.</p>
       <div class="btns" style="margin-top:24px"><a class="btn gold" href="pre-owned.html">Currently offered</a><a class="tlink" href="{ENQ_TS}">Register interest</a></div>
     </div>
     <img src="assets/ts_tank_top.jpg" alt="Two Stroke 024 bespoke paint" loading="lazy">
@@ -393,8 +393,8 @@ TWOSTROKE = f"""
   <img class="bg" src="assets/ts_ride_green2.jpg" alt="Two Stroke at speed on a country road" style="object-position:55% 50%">
   <div class="veil"></div>
   <div class="wrap">
-    <h2>A sound nothing else makes.</h2>
-    <p>Goodwood, the Three Sisters, Silverstone, the Trough of Bowland. One hundred built, every one still turning heads.</p>
+    <h2>Still ridden.</h2>
+    <p>Two Strokes have run at Goodwood, Silverstone and the Three Sisters, and the hundred are ridden on three continents.</p>
   </div>
 </section>
 
@@ -424,7 +424,7 @@ TWOSTROKE = f"""
   </div>
 </section>
 
-{enquire_block("Register your interest", "Tell us what you are looking for – a specification, a colour, a number – and where you are. When the right Two Stroke comes back to the factory, you will hear from Christofer or one of the team before it is offered more widely.", ENQ_TS, "Register interest", secondary=False, pdf=False)}
+{enquire_block("Register your interest", "Tell us what you are looking for and where you are. When a Two Stroke that fits comes back to the factory, Christofer or one of the team will contact you before it is offered more widely.", ENQ_TS, "Register interest", secondary=False, pdf=False)}
 """
 
 # ------------------------------------------------------------------ PRE-OWNED
@@ -445,8 +445,8 @@ PREOWNED = f"""
   <div class="veil"></div>
   <div class="wrap">
     <div class="kicker">Certified Pre-Owned</div>
-    <h1>One hundred were built. Occasionally, one comes back.</h1>
-    <p>Every Two Stroke is known to us by number. When an owner decides the time has come to pass theirs on, it returns to the workshop that built it and is offered, through the factory, to the next person who will keep it.</p>
+    <h1>Two Strokes offered through the factory.</h1>
+    <p>We know every Two Stroke by number. When an owner sells, the bike comes back to the workshop that built it, and we offer it to the next owner ourselves.</p>
     <div class="btns"><a class="btn gold" href="#available">Currently offered</a><a class="tlink" href="{ENQ_TS}">Register interest</a></div>
   </div>
 </section>
@@ -455,10 +455,10 @@ PREOWNED = f"""
   <div class="wrap split">
     <div>
       {chapter("01","The record")}
-      <h2 class="section-title">A place in the record.</h2>
-      <p class="lede">Each Langen carries its build number, its original specification and the name of the person it was built for. Changing hands through the factory keeps that record whole – the way the great marques have always handled the cars that matter.</p>
-      <p class="body">Before a motorcycle is offered it is returned to the engineers who made it. Its history is verified, it is inspected and prepared to the standard it left with, and it receives a new Certificate of Ownership in the new owner's name. The relationship with the factory passes with the bike: direct support, the owners' portal, first refusal on future editions.</p>
-      <p class="body">Should you wish it, the design team will refine colours, finishes and contact points before handover, so that what you take on is yours as well as its history.</p>
+      <h2 class="section-title">The record stays with the bike.</h2>
+      <p class="lede">Each Langen has a build number, a recorded specification and the name of the person it was built for. Selling it through the factory keeps that record complete.</p>
+      <p class="body">Before a bike is offered, the engineers who built it check its history, inspect it and prepare it to the standard it left with. It gets a new Certificate of Ownership in the new owner's name, and the new owner gets what a first owner has: direct support from the factory, the owners' portal and first refusal on future editions.</p>
+      <p class="body">If you want to, the design team can change colours, finishes and contact points before handover.</p>
     </div>
     <img src="assets/ts_studio.jpg" alt="Langen Two Stroke, side profile, studio" loading="lazy">
   </div>
@@ -468,7 +468,7 @@ PREOWNED = f"""
   <div class="wrap">
     {chapter("02","Currently offered")}
     <h2 class="section-title">Motorcycles available through the factory.</h2>
-    <p class="body">Each listing opens the brochure prepared for that motorcycle: its specification, history and condition. Interest is taken in order; a bike is usually spoken for within days of being offered.</p>
+    <p class="body">Each listing opens the brochure we prepared for that bike, with its specification, history and condition. Interest is taken in order, and a bike is usually sold within days of being offered.</p>
     <div class="cpo">{cpo_cards()}</div>
     <p class="note" style="margin-top:22px">From time to time a build allocation is released by a client unable to proceed. These are offered from {TS["slot_price"]} plus VAT and are completed to the new owner's specification. Register your interest and you will hear first.</p>
   </div>
@@ -483,7 +483,7 @@ PREOWNED = f"""
       <div><h3>Factory preparation</h3><p>Over forty mechanical, electrical, cosmetic and documentation checks, a full test ride, and sign-off by a Langen technician.</p></div>
       <div><h3>Warranty and support</h3><p>A minimum twelve-month warranty from Langen, and the same direct line to the engineers that a new build receives.</p></div>
       <div><h3>Certificate of Ownership</h3><p>A new factory-issued certificate in your name, recording the motorcycle's number and specification.</p></div>
-      <div><h3>Refinement</h3><p>Colours, finishes and contact points can be revised with the design team before handover.</p></div>
+      <div><h3>Changes before handover</h3><p>Colours, finishes and contact points can be changed with the design team before handover.</p></div>
       <div><h3>Delivery worldwide</h3><p>Pre-owned bikes carry no VAT in the UK or US. We arrange delivery door to door, crated and insured; local taxes and duty are paid on arrival.</p></div>
     </div>
   </div>
@@ -493,15 +493,15 @@ PREOWNED = f"""
   <div class="wrap split rev">
     <div>
       {chapter("04","Passing yours on")}
-      <h2 class="section-title">When the time comes.</h2>
-      <p class="lede">If you decide to part with your Langen, the factory is the right place to do it. We know the bike, we know who is waiting, and the record – and the value – stay intact.</p>
+      <h2 class="section-title">Selling your Langen.</h2>
+      <p class="lede">If you decide to sell, talk to us first. We know the bike, we know who is waiting for one, and selling through the factory keeps the record and the value intact.</p>
       <div class="btns" style="margin-top:24px"><a class="btn gold" href="{enq("Passing on my Langen", "Hi Langen,\\n\\nI am thinking of passing on my Langen.\\n\\nName:\\nModel and build number:\\nMileage and condition:\\n")}">Talk to us</a></div>
     </div>
     <img src="assets/ts_ride_lane.jpg" alt="Two Stroke on a country lane" loading="lazy" style="object-position:50% 50%">
   </div>
 </section>
 
-{enquire_block("Register your interest", "Tell us what you are looking for – a particular specification, a colour, a number – and where you are. When the right motorcycle comes back to the factory, you will hear from Christofer or one of the team before it is offered more widely.", ENQ_TS, "Register interest", secondary=False, pdf=False)}
+{enquire_block("Register your interest", "Tell us what you are looking for and where you are. When a bike that fits comes back to the factory, Christofer or one of the team will contact you before it is offered more widely.", ENQ_TS, "Register interest", secondary=False, pdf=False)}
 """
 
 # ------------------------------------------------------------------ COMMISSION
@@ -511,23 +511,23 @@ COMMISSION = f"""
   <div class="veil"></div>
   <div class="wrap">
     <div class="kicker">Commissioning a Langen</div>
-    <h1>The best part is before the bike exists.</h1>
-    <p>Owners tell us the commission – the day in the workshop, the drawings, the arguments about colour – is nearly as good as the motorcycle. We take that as a compliment, and have built the process around it.</p>
+    <h1>How a Langen is commissioned.</h1>
+    <p>A refundable deposit, a day at the workshop, a fitting, a specification, the build and the handover. Owners tell us the day at the workshop is one of the best parts, so we take our time over it.</p>
   </div>
 </section>
 
 <section class="light">
   <div class="wrap">
     {chapter("01","Six steps")}
-    <h2 class="section-title">Six steps, one conversation.</h2>
+    <h2 class="section-title">From deposit to handover.</h2>
     <p class="lede">From a refundable deposit to the day you ride it away. Most of it happens in person, in Wigan; for overseas owners we do the same over a video call with the bike in front of us.</p>
     <div class="steps">
       <div class="step"><h3>Allocation</h3><p>A refundable {LS["deposit"]} deposit secures a numbered build. It stays refundable until your specification is agreed, the sales agreement is signed and manufacturing begins. <a href="#" class="terms-link">Deposit terms</a>.</p></div>
       <div class="step"><h3>Consultation</h3><p>A day at the workshop with the design engineers. You see the bike, sit on it, see how it is built, and we talk about what you want from yours.</p></div>
-      <div class="step"><h3>Fitting</h3><p>Seat height and shape, bar height and sweep, footrest position, ride height and suspension set-up – measured and set to you, not adjusted afterwards.</p></div>
+      <div class="step"><h3>Fitting</h3><p>Seat height and shape, bar height and sweep, footrest position, ride height and suspension set-up, measured and set to you before the build starts.</p></div>
       <div class="step"><h3>Specification</h3><p>Paint, exposed carbon or a mix. Frame, swingarm and wheel colours. Seat material and stitching. Machined and anodised hardware. Wheels, exhaust, suspension pack. A visual is prepared and a sales agreement drawn up.</p></div>
-      <div class="step"><h3>The build</h3><p>By hand, by a small team, with parts made or machined locally. You receive updates as it comes together, and you are welcome to visit.</p></div>
-      <div class="step"><h3>Handover</h3><p>Presented complete, set up to your fitting, with its certificate, build record and the people who made it. Delivered to you, or collected from Wigan.</p></div>
+      <div class="step"><h3>The build</h3><p>Built by hand by a small team, with parts made or machined locally. You receive updates as it comes together, and you are welcome to visit.</p></div>
+      <div class="step"><h3>Handover</h3><p>Handed over complete and set up to your fitting, with its certificate and build record, by the people who built it. Delivered to you, or collected from Wigan.</p></div>
     </div>
   </div>
 </section>
@@ -536,16 +536,16 @@ COMMISSION = f"""
   <img class="bg" src="assets/ts_seat_leather.jpg" alt="A brown leather Langen seat, embroidered, on a carbon tail" style="object-position:50% 50%">
   <div class="veil"></div>
   <div class="wrap">
-    <h2>On the menu, and off it.</h2>
-    <p>There is no fixed options list. Most owners choose from the finishes and hard parts we already make. Where someone needs something that doesn't exist yet – a thumb brake, a different footrest hanger, a seat built to a measurement – we engineer it into the bike rather than bolt it on afterwards.</p>
+    <h2>Parts we have not made yet.</h2>
+    <p>There is no fixed options list. Most owners choose from the finishes and hard parts we already make. If you need something we have not made before, such as a thumb brake, a different footrest hanger or a seat built to a measurement, we design it into the bike during the build.</p>
   </div>
 </section>
 
 <section>
   <div class="wrap">
     {chapter("02","What it costs")}
-    <h2 class="section-title">A finished motorcycle, then your choices.</h2>
-    <p class="body">A standard Lightspeed is {LS["price_from"]} plus VAT: silver over a bronze chassis with champagne wheels, complete and ready to ride. Nothing is needed to make it whole. The final figure depends on how far you take the specification; a heavily specified bike with full custom paint, the K-Tech suspension pack, upgraded wheels and bespoke finishes throughout can reach {LS["price_heavily_specified"]}, with most builds landing between the two. The {LS["deposit"]} deposit comes off the price.</p>
+    <h2 class="section-title">The price.</h2>
+    <p class="body">A standard Lightspeed is {LS["price_from"]} plus VAT: silver over a bronze chassis with champagne wheels, complete and ready to ride. The final figure depends on how far you take the specification. A heavily specified bike, with full custom paint, the K-Tech suspension pack, upgraded wheels and bespoke finishes throughout, can reach {LS["price_heavily_specified"]}; most builds land between the two. The {LS["deposit"]} deposit comes off the price.</p>
     <div class="own three">
       <div><h3>United Kingdom</h3><p>Registered under the Individual Vehicle Approval scheme as an individual commission. UK builds deliver first, in build order.</p></div>
       <div><h3>United States</h3><p>Fully homologated Lightspeeds deliver from late 2027; fifty of the 185 are allocated to the US. Earlier UK-specification builds can be registered through the Montana route. Export prices are without UK VAT; air freight door to door, crated and insured, is typically around £3,000, with duty and state taxes paid on arrival.</p></div>
@@ -557,19 +557,19 @@ COMMISSION = f"""
 <section class="light">
   <div class="wrap">
     {chapter("03","Afterwards")}
-    <h2 class="section-title">The relationship doesn't end at handover.</h2>
+    <h2 class="section-title">Owning one.</h2>
     <div class="own three">
-      <div><h3>Direct to the factory</h3><p>No dealer in between. The engineers who built your motorcycle look after it, and owners have a direct line to Christofer.</p></div>
+      <div><h3>Direct to the factory</h3><p>There is no dealer. The engineers who built your motorcycle look after it, and you have Christofer's number.</p></div>
       <div><h3>Overseas support</h3><p>Overseas owners appoint a workshop of their choice; we furnish it with the internal documents, tools and a direct line to the people who designed and built the bike.</p></div>
       <div><h3>Owners' portal</h3><p>Documentation, build updates and the record for your motorcycle, in one place.</p></div>
       <div><h3>First refusal</h3><p>Future ultra-limited editions are offered to owners and build-number holders before anyone else.</p></div>
       <div><h3>Provenance</h3><p>Every build numbered, its specification recorded, a certificate issued. Certified Pre-Owned keeps that record intact when a bike changes hands.</p></div>
-      <div><h3>The door is open</h3><p>Owners are welcome at the workshop. Bring the bike; bring a friend who is thinking about one.</p></div>
+      <div><h3>Visits</h3><p>Owners are welcome at the workshop at any time, by appointment, with or without the bike.</p></div>
     </div>
   </div>
 </section>
 
-{enquire_block("Begin a conversation", "Tell us where you are and what you have in mind – a colour, a fit, a question – and Christofer or one of the team will come back to you personally. If it is easier to talk, send a time that suits and we'll call you.")}
+{enquire_block("Talk to us", "Tell us where you are and what you have in mind, and Christofer or one of the team will reply personally. If you would rather talk, send a time that suits and we will call you.")}
 """
 
 # ------------------------------------------------------------------ ABOUT
@@ -579,8 +579,8 @@ ABOUT = f"""
   <div class="veil"></div>
   <div class="wrap">
     <div class="kicker">Langen Motorcycles · Wigan, England</div>
-    <h1>Engineers first.</h1>
-    <p>Langen was founded in 2018 to build the motorcycles its founder couldn't buy: light, mechanical, hand-made, and engineered around the rider rather than the showroom.</p>
+    <h1>Who we are.</h1>
+    <p>Langen was founded in Wigan in 2018 by Christofer Ratcliffe to build light, hand-made motorcycles, one at a time, to order.</p>
   </div>
 </section>
 
@@ -589,8 +589,8 @@ ABOUT = f"""
     <div>
       {chapter("01","The story")}
       <h2 class="section-title">The story so far.</h2>
-      <p class="lede">Christofer Ratcliffe was Chief Design Engineer at CCM when he began drawing an ultra-lightweight road motorcycle unlike anything on sale. In 2019 a partnership with Vincenzo Mattia's Vins Motors in Maranello gave it an engine, and Langen Motorcycles was born.</p>
-      <p class="body">The Two Stroke followed – one hundred built, every one sold, ridden on three continents and reviewed as a benchmark for handling. The team grew with it: engineers and designers from CCM, Triumph, BAC, McLaren and M-Sport, each with a reason to question how things are usually done.</p>
+      <p class="lede">Christofer Ratcliffe was Chief Design Engineer at CCM when he began drawing an ultra-lightweight road motorcycle of his own. In 2019 a partnership with Vincenzo Mattia's Vins Motors in Maranello gave it an engine, and Langen Motorcycles was born.</p>
+      <p class="body">The Two Stroke followed: one hundred built, every one sold, now ridden on three continents. The team grew with it, with engineers and designers from CCM, Triumph, BAC, McLaren and M-Sport.</p>
       <p class="body">The Lightspeed, revealed at Gunhill Studios in November 2025, is the second model: 185 horsepower, 185 kilograms, 185 builds, with Langen's own electronics and the highest UK manufacturing content of any motorcycle maker. The LS12 Turbo – twelve of them – comes next.</p>
     </div>
     <img src="assets/team.jpg" alt="The Langen team with the first Lightspeed" loading="lazy" style="object-position:50% 50%">
@@ -602,14 +602,14 @@ ABOUT = f"""
 <section class="light">
   <div class="wrap">
     {chapter("02","How we work")}
-    <h2 class="section-title">Everything is there for a reason.</h2>
+    <h2 class="section-title">What happens here.</h2>
     <div class="steps three">
-      <div class="step"><h3>Design</h3><p>Every component is drawn by us and judged on weight, function and how it looks in the hand. If a part can't be made better, it isn't on the bike.</p></div>
-      <div class="step"><h3>Engineering</h3><p>Chassis analysed in our own FEA tools, electronics and rider aids written in house, materials chosen for what they do rather than what they cost.</p></div>
-      <div class="step"><h3>Testing</h3><p>Dyno, road and track before anything is signed off – procedures in line with the large OEMs, with the attention that comes from building slowly, by hand.</p></div>
-      <div class="step"><h3>Making</h3><p>Chassis welded and bodywork laid up by local partners who make for Formula 1 and aerospace. Billet parts machined minutes from the factory door.</p></div>
-      <div class="step"><h3>Commissioning</h3><p>Each bike built to its owner's fit and specification, with the design team, in person. No two alike.</p></div>
-      <div class="step"><h3>Looking after it</h3><p>Owners deal with the factory directly. The engineers who built the bike are the ones who maintain it.</p></div>
+      <div class="step"><h3>Design</h3><p>Every component is drawn here and judged on weight, function and finish. Each one has to justify its place on the bike.</p></div>
+      <div class="step"><h3>Engineering</h3><p>Chassis analysed with our own FEA tools, electronics and rider aids written in house, materials chosen on weight and strength.</p></div>
+      <div class="step"><h3>Testing</h3><p>Dyno, road and track before anything is signed off, to procedures in line with the large manufacturers.</p></div>
+      <div class="step"><h3>Making</h3><p>Chassis welded and bodywork laid up by local partners who also make for Formula 1 and aerospace. Billet parts are machined a few minutes from the workshop.</p></div>
+      <div class="step"><h3>Commissioning</h3><p>Each bike is built to its owner's fit and specification, agreed with the design team in person.</p></div>
+      <div class="step"><h3>Looking after it</h3><p>Owners deal with the factory directly, and the engineers who built the bike maintain it.</p></div>
     </div>
   </div>
 </section>
@@ -630,9 +630,9 @@ ABOUT = f"""
     {chapter("03","Where")}
     <div class="split">
       <div>
-        <h2 class="section-title">Next to a racetrack, on purpose.</h2>
-        <p class="lede">Kingfisher Court, Wigan – beside the Three Sisters circuit, twenty minutes from Manchester, in the part of England that built the first machines. The local mantra is one we have adopted: we do things differently here.</p>
-        <p class="body">Visits are by appointment and always welcome. Owners, prospective owners and anyone who wants to see a motorcycle built by hand.</p>
+        <h2 class="section-title">Kingfisher Court, Wigan.</h2>
+        <p class="lede">Beside the Three Sisters circuit, two minutes from junction 25 of the M6 and twenty from Manchester. The line on the workshop wall, “We do things differently here”, is Wigan's own, and we have taken it on.</p>
+        <p class="body">Visits are by appointment and always welcome, whether you own one, are thinking about one, or just want to see a motorcycle being built by hand.</p>
         <div class="btns" style="margin-top:24px"><a class="btn gold" href="contact.html">Arrange a visit</a></div>
       </div>
       <img src="assets/workshop_wide2.jpg" alt="Inside the Langen workshop in Wigan" loading="lazy" style="object-position:50% 50%">
@@ -652,7 +652,7 @@ ABOUT = f"""
   </div>
 </section>
 
-{enquire_block("Come and see for yourself", "The best way to understand a Langen is to stand next to one. Tell us when suits and we'll put the kettle on.", enq("Workshop visit", "Hi Langen,\\n\\nI'd like to arrange a visit to the workshop.\\n\\nName:\\nWhere I'm travelling from:\\nDates that suit:\\n"), "Arrange a visit")}
+{enquire_block("Arrange a visit", "Tell us when suits and we will show you round the workshop and the bikes.", enq("Workshop visit", "Hi Langen,\\n\\nI'd like to arrange a visit to the workshop.\\n\\nName:\\nWhere I'm travelling from:\\nDates that suit:\\n"), "Arrange a visit")}
 """
 
 # ------------------------------------------------------------------ NEWS (content/news/*.md)
@@ -661,7 +661,7 @@ NEWS_PAGE = f"""
   <div class="wrap">
     <div class="kicker">News</div>
     <h1>From the workshop.</h1>
-    <p class="lede">Reveals, events, awards and the occasional look over the engineers' shoulders.</p>
+    <p class="lede">Reveals, events, awards and news from the workshop.</p>
   </div>
 </section>
 <section style="padding-top:0">
@@ -670,7 +670,7 @@ NEWS_PAGE = f"""
     <p class="note" style="margin-top:30px">For press enquiries and image requests, see the <a href="owners.html#press" style="color:#fff">press page</a>.</p>
   </div>
 </section>
-{enquire_block("Stay in touch", "If you would like to hear from us as the first Lightspeeds are delivered, drop us a line and we will add you to the small list of people we write to directly.", enq("Keep me informed", "Hi Langen,\\n\\nPlease keep me informed about Langen news and the Lightspeed.\\n\\nName:\\nCountry:\\n"), "Keep me informed", secondary=False, pdf=False)}
+{enquire_block("Stay in touch", "If you would like to hear from us as the first Lightspeeds are delivered, send us your email address and we will keep you informed.", enq("Keep me informed", "Hi Langen,\\n\\nPlease keep me informed about Langen news and the Lightspeed.\\n\\nName:\\nCountry:\\n"), "Keep me informed", secondary=False, pdf=False)}
 """
 
 def article_page(it):
@@ -694,12 +694,12 @@ def article_page(it):
 
 # ------------------------------------------------------------------ CONTACT
 FAQ = [
- (f"What makes a Langen different?",f"Each one is commissioned rather than bought. Your riding position, geometry and suspension are set to you before the build starts, and paint, finishes and the machined details are chosen with the design team who will make them. The engineers who build your bike are the ones who look after it – there is no dealer in between."),
+ (f"What makes a Langen different?",f"Each one is built to order for one rider. Your riding position, geometry and suspension are set to you before the build starts, and paint, finishes and the machined details are chosen with the design team who will make them. The engineers who build your bike also look after it; there is no dealer."),
  (f"How limited are they?",f"The Two Stroke was a run of 100, now sold out. The Lightspeed is limited to {LS["builds"]} builds worldwide, each numbered, with {LS["us_allocation"]} allocated to the United States. The LS12 Turbo will be twelve."),
  (f"What does a Lightspeed cost?",f"From {LS["price_from"]} plus VAT for a complete, finished motorcycle. The final figure depends on your specification; a heavily specified bike can reach {LS["price_heavily_specified"]}. Export builds are priced without UK VAT, plus shipping, duty and local taxes."),
  (f"How do I reserve one?",f"A {LS["deposit"]} deposit reserves a numbered build. It is fully refundable until your specification session is complete, the sales agreement is signed and manufacturing begins, and it comes off the price of the bike."),
  (f"Can I have one outside the UK?",f"Yes. UK-specification builds deliver first; fully homologated versions for the USA, Europe, Japan, the Middle East and Australasia follow through 2027. US owners can take an early UK-specification bike through the Montana route. We arrange air freight door to door, crated and insured; clearance and duty are paid on arrival."),
- (f"How far can I customise it?",f"As far as you like. Colours, finishes, seat, wheels, exhaust and suspension are specified with the design team, and where a part doesn't exist yet – a thumb brake, a different footrest hanger – we engineer it into the bike rather than bolting it on afterwards."),
+ (f"How far can I customise it?",f"As far as you like. Colours, finishes, seat, wheels, exhaust and suspension are specified with the design team, and if you need a part we have not made before, such as a thumb brake or a different footrest hanger, we design it into the bike during the build."),
  (f"Can I visit?",f"Please do. The workshop is at Kingfisher Court, Wigan, next to the Three Sisters circuit. Visits are by appointment; email or call and we will find a time."),
  (f"Is the Two Stroke still available?",f"New builds are closed. When an owner passes one on it comes back through the factory, inspected, certified and warranted, and is offered to the people who have registered interest first."),
 ]
@@ -707,7 +707,7 @@ CONTACT = f"""
 <section class="page-head">
   <div class="wrap">
     <div class="kicker">Contact</div>
-    <h1>Talk to the people who build them.</h1>
+    <h1>Email, call, or come and see us.</h1>
     <p class="lede">Every enquiry is answered personally by Christofer or one of the team. Tell us where you are and what you have in mind.</p>
   </div>
 </section>
@@ -738,7 +738,7 @@ CONTACT = f"""
 </section>
 <section id="faq">
   <div class="wrap">
-    <h2 class="section-title">Questions we are asked most.</h2>
+    <h2 class="section-title">Common questions.</h2>
     <div class="faq">{"".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q,a in FAQ)}</div>
   </div>
 </section>
@@ -750,15 +750,15 @@ CAREERS = f"""
 <section class="page-head">
   <div class="wrap">
     <div class="kicker">Careers</div>
-    <h1>A small team. Room for a few more.</h1>
-    <p class="lede">We build the motorcycles that used to be posters on bedroom walls, in a workshop in Wigan, with people who came from CCM, Triumph, BAC, McLaren and M-Sport to do it. If you would rather make one thing properly than a thousand things adequately, read on.</p>
+    <h1>Working at Langen.</h1>
+    <p class="lede">We are a small team in Wigan, with people who came from CCM, Triumph, BAC, McLaren and M-Sport, building motorcycles by hand to order. The roles we are hiring for are below.</p>
   </div>
 </section>
 <section style="padding-top:0">
   <div class="wrap">
     <div class="own three">
-      <div><h3>What we are for</h3><p>Motorcycles that move your soul – machines that unite technical performance with the purity of the ride.</p></div>
-      <div><h3>How we behave</h3><p>Honesty, integrity, inclusiveness, innovation, quality, openness, creativity – and fun. Each upheld with equal dedication.</p></div>
+      <div><h3>What we are for</h3><p>Motorcycles that move the soul: technical performance and the purity of the ride in one machine.</p></div>
+      <div><h3>How we behave</h3><p>Honesty, integrity, inclusiveness, innovation, quality, openness, creativity, and fun.</p></div>
       <div><h3>What we expect</h3><p>That you question the norm, own your work, and care about the rider at the end of it.</p></div>
     </div>
     <h2 class="section-title" style="margin-top:60px">Open roles</h2>
@@ -767,7 +767,7 @@ CAREERS = f"""
       <div class="role"><div><h3>Automotive Design Engineer</h3><div class="meta">Wigan · Full-time</div><p>Design and development across the whole motorcycle, from chassis to machined detail. Experience designing to a high standard in the automotive industry; all levels considered for the right person.</p></div><a class="btn ghost" href="{enq("Application – Automotive Design Engineer")}">Apply</a></div>
       <div class="role"><div><h3>Customer Development Specialist</h3><div class="meta">Wigan · Full-time</div><p>Building and keeping owner relationships, from first enquiry to handover and beyond. Proactive, adaptable, and good with people who care about details.</p></div><a class="btn ghost" href="{enq("Application – Customer Development Specialist")}">Apply</a></div>
     </div>
-    <p class="note" style="margin-top:26px">Nothing that fits? We are always interested in engineers, technicians and makers who want to be part of the story. Send a CV and a few lines about what you'd bring.</p>
+    <p class="note" style="margin-top:26px">If none of these fit, we are still interested in hearing from engineers, technicians and makers. Send a CV and a few lines about what you would bring.</p>
   </div>
 </section>
 {enquire_block("Introduce yourself", "Send a CV and a few lines about what you ride, what you've built and why Langen.", enq("Careers – introduction"), "Email the team", secondary=False, pdf=False)}
@@ -801,7 +801,7 @@ PRIVACY = f"""
 """
 
 PAGES = {
- "index.html":      ("Langen Motorcycles – hand-built in Wigan, England","Langen builds motorcycles to order for one rider at a time. The Lightspeed: 185 hp, 185 kg, 185 builds. The Two Stroke: 100 built. We do things differently here.","index.html","assets/ls_front_bokeh.jpg",HOME,None),
+ "index.html":      ("Langen Motorcycles – hand-built in Wigan, England","Langen builds motorcycles to order for one rider at a time, in Wigan, England. The Lightspeed: 185 hp, 185 kg, 185 builds. The Two Stroke: 100 built.","index.html","assets/ls_front_bokeh.jpg",HOME,None),
  "lightspeed.html": ("Langen Lightspeed – 185 hp, 185 kg, one of 185","The Langen Lightspeed: a 1,190cc V-twin, 185 hp, 185 kg, limited to 185 commissioned builds. From £37,000 plus VAT. Reserve a numbered build with a refundable £1,000 deposit.","lightspeed.html","assets/ls_og.jpg",LIGHTSPEED,"lightspeed.html"),
  "two-stroke.html": ("Langen Two Stroke – one hundred built","The Langen Two Stroke: 249.5cc two-stroke V-twin by Vins Motors, 76 hp, 120 kg, 100 built. Occasionally one comes back through the factory.","two-stroke.html","assets/ts_goodwood_hill.jpg",TWOSTROKE,"two-stroke.html"),
  "pre-owned.html":  ("Certified Pre-Owned – Langen Motorcycles","One hundred Two Strokes were built. When one changes hands, it does so through the factory that made it, with its record and provenance intact.","pre-owned.html","assets/ts_track.jpg",PREOWNED,"pre-owned.html"),

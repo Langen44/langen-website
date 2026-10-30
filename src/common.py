@@ -603,7 +603,7 @@ def enquiry_form(form_id="enq-form", subject="Enquiry", model="lightspeed", ligh
   <div class="row2"><label>Name<input name="name" required autocomplete="name"></label><label>Email<input name="email" type="email" required autocomplete="email" inputmode="email"></label></div>
   <div class="row2"><label>Country<input name="country" autocomplete="country-name"></label><label>Phone (optional)<input name="phone" type="tel" autocomplete="tel" inputmode="tel"></label></div>
   <label>About<select name="model"><option value="lightspeed"{sel("lightspeed")}>The Lightspeed</option><option value="two-stroke"{sel("two-stroke")}>A pre-owned Two Stroke</option><option value="visit"{sel("visit")}>Visiting the workshop</option><option value="other"{sel("other")}>Something else</option></select></label>
-  <label>Message<textarea name="message" rows="4" placeholder="A colour, a question, a road you want it for…"></textarea></label>
+  <label>Message<textarea name="message" rows="4" placeholder="Your question, or what you have in mind"></textarea></label>
   <label class="chk"><input type="checkbox" name="newsletter" value="1"> Keep me informed about Langen news</label>
   <div class="hp" aria-hidden="true"><label>Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label></div>
   {ts}
@@ -613,7 +613,7 @@ def enquiry_form(form_id="enq-form", subject="Enquiry", model="lightspeed", ligh
 <div class="done" hidden><h3>Thank you.</h3><p>Your enquiry is with Christofer and the team. We reply personally, usually {REPLY_TIME}.</p></div>"""
 
 def enquire_block(title="Talk to us about a build", lede=None, primary=None, primary_label="Enquire by email", secondary=True, pdf=True):
-    lede = lede or "Tell us where you are and what you have in mind, and Christofer or one of the team will come back to you personally. Every Langen is commissioned in conversation, not bought from a page."
+    lede = lede or "Tell us where you are and what you have in mind, and Christofer or one of the team will reply personally, usually within a working day."
     primary = primary or ENQ_LS
     sec = f'<a class="btn ghost" href="{STRIPE}">Reserve a Lightspeed – £1,000 refundable deposit</a>' if secondary else ""
     if pdf and FEAT.get("brochure_gate"):
@@ -644,7 +644,7 @@ def enquire_block(title="Talk to us about a build", lede=None, primary=None, pri
 
 NEWSLETTER = f"""<section class="nl" aria-label="Newsletter">
   <div class="wrap">
-    <div><h4>Hear from the workshop.</h4><p>An occasional note when something is worth telling – a delivery, a reveal, a date for the diary. No more than once a month.</p></div>
+    <div><h4>News from the workshop.</h4><p>An occasional email when there is something to tell: a delivery, a reveal, an event. No more than once a month.</p></div>
     <div><form class="nl-form" novalidate><input type="email" name="email" placeholder="Your email address" required autocomplete="email" inputmode="email" aria-label="Email address"><button type="submit">Keep me informed</button></form><div class="msg" aria-live="polite"></div></div>
   </div>
 </section>

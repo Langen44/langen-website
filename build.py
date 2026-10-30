@@ -157,7 +157,7 @@ def main():
   <div class="wrap">
     <div class="kicker">404</div>
     <h1>That page isn't here.</h1>
-    <p class="lede">It may have moved when the site was rebuilt. The motorcycles are where you'd expect them.</p>
+    <p class="lede">It may have moved when the site was rebuilt.</p>
     <div class="btns" style="margin-top:30px"><a class="btn ghost" href="index.html">Home</a><a class="tlink" href="lightspeed.html">The Lightspeed</a></div>
   </div>
 </section>

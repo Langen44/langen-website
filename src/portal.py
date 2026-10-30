@@ -137,7 +137,7 @@ OWNERS = f"""
   <div class="wrap">
     <div class="kicker">Press</div>
     <h2 class="section-title">Press and media.</h2>
-    <p class="lede">For interviews, test rides, images and the press kit, email the team directly. We answer quickly and we don't do holding statements.</p>
+    <p class="lede">For interviews, test rides, images and the press kit, email the team directly.</p>
     <div class="btns" style="margin-top:24px"><a class="btn gold" href="{mailto('Press enquiry')}">Press enquiry</a></div>
   </div>
 </section>

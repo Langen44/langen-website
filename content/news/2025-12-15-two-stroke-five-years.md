@@ -1,8 +1,8 @@
 ---
-title: "Five years, one foundation: the Two Stroke that shaped Langen"
+title: "Five years of the Two Stroke"
 date: 2025-12-15
-summary: "When Langen was founded, the Two Stroke was at the heart of the idea – a chance to prove that a small team of engineers could create a motorcycle the big manufacturers wouldn't."
+summary: "The Two Stroke was the first bike Langen built, and the one that proved a small team in Wigan could design and build a motorcycle of its own."
 image: assets/ts_news.jpg
 image_alt: "Langen Two Stroke in front of the We Do Things Differently Here wall"
 ---
-When Langen was founded, the Two Stroke was at the heart of the idea – a chance to prove that a small team of engineers could create a motorcycle the big manufacturers wouldn't. One hundred were built, every one specified by its owner, and every one is still known to us by number.
+The Two Stroke was the first bike Langen built, and the one that proved a small team in Wigan could design and build a motorcycle of its own. One hundred were built between 2019 and 2025, every one specified by its owner, and we still know each of them by number.
